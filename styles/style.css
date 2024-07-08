@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --cor-principal: rgba(142, 36, 36, 1);
+    --cor-fonte: gray;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 15% 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.cabecalho__menu__item {
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.cabecalho__menu__item:hover {
+    color: var(--cor-principal);
+}
+
+.cabecalho__menu__cadastro {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cabecalho__menu__cadastro__botao {
+    text-decoration: none;
+    background-color: rgba(142, 36, 36, 1);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+.cabecalho__menu__cadastro__botao:hover {
+    color: var(--cor-principal);
+    background-color: var(--cor-fonte);
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    text-align: center;
+    width: 34%;
+}
+
+.secao1 p {
+    padding: 5%;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.subtitulo__secao1 {
+    color: var(--cor-principal);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.titulo__principal__secao1 {
+    font-size: 48px;
+}
+
+.texto__secao1 {
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
+
+.secao2 {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.secao2__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 17.5rem;
+}
+
+.secao2__item__titulo {
+    font-size: 60px;
+    color: var(--cor-principal);
+}
+
+.secao2__item__subtitulo {
+    font-size: 18px;
+}
+
+.secao2__item__texto {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-fonte);
+}
+
+.secao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 150px;
+}
+
+.imagem-reuniao {
+    margin: 50px;
+    width: 75%;
+}
+
+.subtitulo__secao3 {
+    color: var(--cor-principal);
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(253, 210, 210);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.titulo__principal__secao3 {
+    font-size: 48px;
+}
+
+.texto__secao3 {
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
