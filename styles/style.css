@@ -122,12 +122,12 @@ body {
     align-items: center;
     text-align: center;
     gap: 30px;
-    margin: 150px;
+    margin: 150px 150px 50px 150px;
 }
 
 .imagem-reuniao {
-    margin: 50px;
-    width: 75%;
+    margin-top: 50px;
+    width: 60%;
 }
 
 .subtitulo__secao3 {
@@ -145,5 +145,58 @@ body {
 
 .texto__secao3 {
     font-size: 20px;
+    color: var(--cor-fonte);
+}
+
+.secao4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.teste {
+    margin: 0 auto;
+}
+
+
+.container__vagas__dev {
+    width: 60rem;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    
+}
+
+.container__vagas__design {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.container__vagas__item {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 3%;
+    border: 2px solid rgba(234, 236, 240, 1);
+    border-radius: 16px;
+
+}
+
+.titulo__vagas {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
+
+.subtitulo__vagas {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+}
+
+.texto__vagas {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
     color: var(--cor-fonte);
 }
