@@ -200,3 +200,46 @@ body {
     font-size: 16px;
     color: var(--cor-fonte);
 }
+
+.depoimentos {
+    margin-top: 80px;
+}
+
+.depoimentos__container {
+    width: 45%;
+    background-color: rgba(195, 25, 25, 0.03);
+    margin: 0 auto;
+    padding: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.depoimentos__container__subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-principal);
+}
+
+.depoimentos__container__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 36px;
+
+}
+
+.depoimentos__container2__nome {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.depoimentos__container2__cargo {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-fonte);
+}
