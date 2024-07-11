@@ -186,17 +186,14 @@ body {
 }
 
 .titulo__vagas {
-    font-family: var(--fonte-principal);
     font-size: 20px;
 }
 
 .subtitulo__vagas {
-    font-family: var(--fonte-principal);
     font-size: 18px;
 }
 
 .texto__vagas {
-    font-family: var(--fonte-principal);
     font-size: 16px;
     color: var(--cor-fonte);
 }
@@ -218,28 +215,71 @@ body {
 }
 
 .depoimentos__container__subtitulo {
-    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 600;
     color: var(--cor-principal);
 }
 
 .depoimentos__container__titulo {
-    font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 36px;
 
 }
 
 .depoimentos__container2__nome {
-    font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 700;
 }
 
 .depoimentos__container2__cargo {
-    font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 500;
+    color: var(--cor-fonte);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0 ;
+    gap: 32px;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-fonte);
+}
+
+.form {
+    width: 20em;
+    height: 2.7em;
+
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid var(--cor-fonte);
+    gap: 8px;
+}
+
+.rodape__botao__cadastro {
+    width: 7em;
+    height: 2.9em;
+    border: 1px;
+    border-radius: 8px;
+    background-color: var(--cor-principal);
+
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rodape__texto2 {
+    font-size: 16px;
+    font-weight: 400;
     color: var(--cor-fonte);
 }
